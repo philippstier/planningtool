@@ -27,6 +27,8 @@ for($i = 1; $i<count($json); $i++) {
     
     if ($result_insert != true) {
         $tester = false;
+    } else {
+        $tester = $last_id;
     }
     
 }
