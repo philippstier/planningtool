@@ -120,7 +120,6 @@ function savePlan() {
         data:{json:jsonObj},  
         success:function(data)  
         {    
-			alert(data);
             if (data != 0) {
         		window.location ='list_detail.php?id='+data+'&mode=display'
             } else {

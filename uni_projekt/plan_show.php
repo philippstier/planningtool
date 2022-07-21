@@ -35,8 +35,9 @@ $result = $link->query($sql);
   <p class="active">Filmplaner</p>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
-    <a href="create_list.php">Liste erstellen</a>
-    <a href="list.php">Listen ansehen</a>
+    <a href="create_list.php">Film-Liste erstellen</a>
+    <a href="list.php">Film-Listen ansehen</a>
+    <a href="plan_show.php">Serien ansehen</a>
     <a href="read.php">Film/Serien suche</a>
   </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
